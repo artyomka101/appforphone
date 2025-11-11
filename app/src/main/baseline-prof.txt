@@ -1,0 +1,56 @@
+# УЛЬТРА-ОПТИМИЗИРОВАННЫЙ Baseline Profile для Redmi Note 13
+# Критические пути для максимальной производительности
+
+# Основные экраны приложения (приоритет 1)
+HSPLcom/example/myapplication/main/screen/SwipeableMainScreen
+HSPLcom/example/myapplication/main/screen/MainScreen/MainScreen
+HSPLcom/example/myapplication/main/screen/MainScreen/companent/HabitCard
+HSPLcom/example/myapplication/main/screen/MainScreen/companent/ModernStatsCard
+HSPLcom/example/myapplication/main/screen/MainScreen/companent/EmptyStateCard
+
+# Навигация и переходы (приоритет 1)
+HSPLcom/example/myapplication/main/screen/BottomNavigation
+HSPLcom/example/myapplication/MainActivity
+HSPLcom/example/myapplication/main/screen/SwipeableNavigation
+
+# ViewModel и состояние (приоритет 2)
+HSPLcom/example/myapplication/domain/HabitViewModel
+HSPLcom/example/myapplication/data/HabitDao
+HSPLcom/example/myapplication/data/HabitDatabase
+
+# Анимации и переходы (приоритет 2)
+HSPLcom/example/myapplication/utils/AnimationUtils
+HSPLcom/example/myapplication/utils/ColorIconUtils
+
+# Compose runtime оптимизации (приоритет 1)
+HSPLandroidx/compose/runtime/Composable
+HSPLandroidx/compose/runtime/remember
+HSPLandroidx/compose/runtime/derivedStateOf
+HSPLandroidx/compose/runtime/mutableStateOf
+HSPLandroidx/compose/runtime/collectAsState
+
+# Compose Foundation (приоритет 1)
+HSPLandroidx/compose/foundation/pager/HorizontalPager
+HSPLandroidx/compose/foundation/lazy/LazyColumn
+HSPLandroidx/compose/foundation/lazy/LazyListState
+HSPLandroidx/compose/foundation/gestures/scrollable
+
+# Compose Animation (приоритет 1)
+HSPLandroidx/compose/animation/core/animateFloatAsState
+HSPLandroidx/compose/animation/core/animateDpAsState
+HSPLandroidx/compose/animation/core/tween
+HSPLandroidx/compose/animation/AnimatedVisibility
+
+# Compose Material3 (приоритет 2)
+HSPLandroidx/compose/material3/Card
+HSPLandroidx/compose/material3/Button
+HSPLandroidx/compose/material3/FloatingActionButton
+HSPLandroidx/compose/material3/TopAppBar
+HSPLandroidx/compose/material3/Scaffold
+
+# Compose UI (приоритет 2)
+HSPLandroidx/compose/ui/graphics/graphicsLayer
+HSPLandroidx/compose/ui/modifier/Modifier
+HSPLandroidx/compose/ui/layout/Box
+HSPLandroidx/compose/ui/layout/Column
+HSPLandroidx/compose/ui/layout/Row
