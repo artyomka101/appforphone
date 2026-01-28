@@ -2,10 +2,10 @@ package com.example.myapplication.di
 
 import android.content.Context
 import androidx.room.Room
-import com.example.myapplication.data.HabitDao
-import com.example.myapplication.data.HabitDatabase
-import com.example.myapplication.domain.HabitRepository
-import com.example.myapplication.domain.HabitRepositoryImpl
+import com.example.myapplication.data.local.HabitDao
+import com.example.myapplication.data.local.HabitDatabase
+import com.example.myapplication.data.repository.HabitRepositoryImpl
+import com.example.myapplication.domain.repository.HabitRepository
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

@@ -1,7 +1,8 @@
 package com.example.myapplication.ui.state
 
-import com.example.myapplication.data.Habit
-import com.example.myapplication.data.UserProfile
+import com.example.myapplication.domain.model.Habit
+import com.example.myapplication.domain.model.UserProfile
+import com.example.myapplication.domain.model.SimpleNotification
 import java.time.LocalDate
 
 // UiState для главного экрана
@@ -27,7 +28,7 @@ data class ProfileUiState(
 
 // UiState для уведомлений
 data class NotificationsUiState(
-    val notifications: List<com.example.myapplication.domain.SimpleNotification> = emptyList(),
+    val notifications: List<SimpleNotification> = emptyList(),
     val isLoading: Boolean = false,
     val error: String? = null
 )
