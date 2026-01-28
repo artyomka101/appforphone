@@ -1,0 +1,165 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Градиентный фон -->
+    <path
+        android:fillColor="#1A1A2E"
+        android:pathData="M0,0h108v108h-108z"/>
+    
+    <!-- Звездный фон -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M20,15 L21,15 L21,16 L20,16 Z"
+        android:fillAlpha="0.8"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M85,25 L86,25 L86,26 L85,26 Z"
+        android:fillAlpha="0.6"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M15,80 L16,80 L16,81 L15,81 Z"
+        android:fillAlpha="0.7"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M90,70 L91,70 L91,71 L90,71 Z"
+        android:fillAlpha="0.9"/>
+    
+    <!-- Основной телефон с градиентом -->
+    <path
+        android:fillColor="#6B73FF"
+        android:pathData="M32,18 L76,18 Q80,18 80,22 L80,86 Q80,90 76,90 L32,90 Q28,90 28,86 L28,22 Q28,18 32,18 Z"/>
+    
+    <!-- Блик на телефоне -->
+    <path
+        android:fillColor="#8A92FF"
+        android:pathData="M32,18 L76,18 Q80,18 80,22 L80,35 Q76,31 72,31 L36,31 Q32,31 28,35 L28,22 Q28,18 32,18 Z"
+        android:fillAlpha="0.6"/>
+    
+    <!-- Экран телефона -->
+    <path
+        android:fillColor="#F8F9FA"
+        android:pathData="M34,26 L74,26 Q76,26 76,28 L76,78 Q76,80 74,80 L34,80 Q32,80 32,78 L32,28 Q32,26 34,26 Z"/>
+    
+    <!-- Задачи на экране с красивыми градиентами -->
+    <!-- Первая задача (выполнена) - зеленый градиент -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M36,32 L70,32 Q72,32 72,34 L72,38 Q72,40 70,40 L36,40 Q34,40 34,38 L34,34 Q34,32 36,32 Z"/>
+    <path
+        android:fillColor="#66BB6A"
+        android:pathData="M36,32 L70,32 Q72,32 72,34 L72,35 Q70,33 68,33 L38,33 Q36,33 34,35 L34,34 Q34,32 36,32 Z"
+        android:fillAlpha="0.7"/>
+    
+    <!-- Галочка с тенью -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeColor="#FFFFFF"
+        android:pathData="M38,36 L42,38 L46,34"/>
+    
+    <!-- Вторая задача (выполнена) - синий градиент -->
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M36,44 L70,44 Q72,44 72,46 L72,50 Q72,52 70,52 L36,52 Q34,52 34,50 L34,46 Q34,44 36,44 Z"/>
+    <path
+        android:fillColor="#42A5F5"
+        android:pathData="M36,44 L70,44 Q72,44 72,46 L72,47 Q70,45 68,45 L38,45 Q36,45 34,47 L34,46 Q34,44 36,44 Z"
+        android:fillAlpha="0.7"/>
+    
+    <!-- Галочка -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeColor="#FFFFFF"
+        android:pathData="M38,48 L42,50 L46,46"/>
+    
+    <!-- Третья задача (в процессе) - оранжевый градиент -->
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M36,56 L70,56 Q72,56 72,58 L72,62 Q72,64 70,64 L36,64 Q34,64 34,62 L34,58 Q34,56 36,56 Z"/>
+    <path
+        android:fillColor="#FFB74D"
+        android:pathData="M36,56 L70,56 Q72,56 72,58 L72,59 Q70,57 68,57 L38,57 Q36,57 34,59 L34,58 Q34,56 36,56 Z"
+        android:fillAlpha="0.7"/>
+    
+    <!-- Четвертая задача (новая) - фиолетовый градиент -->
+    <path
+        android:fillColor="#9C27B0"
+        android:pathData="M36,68 L70,68 Q72,68 72,70 L72,74 Q72,76 70,76 L36,76 Q34,76 34,74 L34,70 Q34,68 36,68 Z"/>
+    <path
+        android:fillColor="#BA68C8"
+        android:pathData="M36,68 L70,68 Q72,68 72,70 L72,71 Q70,69 68,69 L38,69 Q36,69 34,71 L34,70 Q34,68 36,68 Z"
+        android:fillAlpha="0.7"/>
+    
+    <!-- Золотая медаль с блеском -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M18,10 Q24,6 30,10 L30,22 Q24,26 18,22 Z"/>
+    <path
+        android:fillColor="#FFF176"
+        android:pathData="M18,10 Q24,6 30,10 L30,14 Q26,10 22,10 Q20,10 18,12 Z"
+        android:fillAlpha="0.8"/>
+    
+    <!-- Звездочка на медали -->
+    <path
+        android:fillColor="#FF8F00"
+        android:pathData="M24,12 L25,15 L28,15 L25.5,17 L26.5,20 L24,18.5 L21.5,20 L22.5,17 L20,15 L23,15 Z"/>
+    
+    <!-- Колокольчик уведомлений с градиентом -->
+    <path
+        android:fillColor="#FF5722"
+        android:pathData="M82,12 Q88,12 88,18 Q88,24 82,24 Q76,24 76,18 Q76,12 82,12 Z"/>
+    <path
+        android:fillColor="#FF7043"
+        android:pathData="M82,12 Q88,12 88,18 L88,15 Q85,12 82,12 Q79,12 76,15 L76,18 Q76,12 82,12 Z"
+        android:fillAlpha="0.7"/>
+    
+    <!-- Восклицательный знак на колокольчике -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M82,15 L82,19 M82,20 L82,21"
+        android:strokeWidth="1.5"
+        android:strokeColor="#FFFFFF"/>
+    
+    <!-- Часы с градиентом -->
+    <path
+        android:fillColor="#9C27B0"
+        android:pathData="M88,82 Q94,82 94,88 Q94,94 88,94 Q82,94 82,88 Q82,82 88,82 Z"/>
+    <path
+        android:fillColor="#BA68C8"
+        android:pathData="M88,82 Q94,82 94,88 L94,85 Q91,82 88,82 Q85,82 82,85 L82,88 Q82,82 88,82 Z"
+        android:fillAlpha="0.7"/>
+    
+    <!-- Стрелки часов -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M88,85 L88,88 L90,88"
+        android:strokeWidth="1.5"
+        android:strokeColor="#FFFFFF"/>
+    
+    <!-- Шестеренка настроек -->
+    <path
+        android:fillColor="#607D8B"
+        android:pathData="M12,82 Q18,82 18,88 Q18,94 12,94 Q6,94 6,88 Q6,82 12,82 Z"/>
+    <path
+        android:fillColor="#78909C"
+        android:pathData="M12,82 Q18,82 18,88 L18,85 Q15,82 12,82 Q9,82 6,85 L6,88 Q6,82 12,82 Z"
+        android:fillAlpha="0.7"/>
+    
+    <!-- Зубцы шестеренки -->
+    <path
+        android:fillColor="#546E7A"
+        android:pathData="M10,82 L14,82 L14,84 L10,84 Z M6,86 L8,86 L8,90 L6,90 Z M16,86 L18,86 L18,90 L16,90 Z M10,92 L14,92 L14,94 L10,94 Z"/>
+    
+    <!-- Бумажный самолетик -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M85,88 L95,82 L95,86 L90,88 L95,90 L95,94 L85,88 Z"/>
+    <path
+        android:fillColor="#F5F5F5"
+        android:pathData="M85,88 L95,82 L95,84 L88,86 L85,88 Z"
+        android:fillAlpha="0.8"/>
+</vector>
