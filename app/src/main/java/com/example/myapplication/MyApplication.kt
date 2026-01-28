@@ -12,7 +12,3 @@ class MyApplication : Application() {
         NotificationHelper.createNotificationChannel(this)
     }
 }
-
-
-
-

@@ -26,7 +26,6 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.myapplication.domain.model.Habit
 import com.example.myapplication.presentation.viewmodels.HabitViewModel
 import com.example.myapplication.presentation.components.HabitCard
-import com.example.myapplication.presentation.components.HabitStats
 import com.example.myapplication.presentation.components.DateSelector
 import com.example.myapplication.presentation.components.ModernStatsCard
 import com.example.myapplication.presentation.components.EmptyStateCard

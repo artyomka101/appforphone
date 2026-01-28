@@ -8,8 +8,8 @@ import com.example.myapplication.domain.model.*
 
 @Database(
     entities = [Habit::class, HabitCompletion::class, SimpleNotification::class, UserProfile::class],
-    version = 10,
-    exportSchema = true
+    version = 1,
+    exportSchema = false
 )
 abstract class HabitDatabase : RoomDatabase() {
     abstract fun habitDao(): HabitDao

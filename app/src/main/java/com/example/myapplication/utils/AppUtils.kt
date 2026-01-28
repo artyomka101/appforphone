@@ -1,19 +1,9 @@
 package com.example.myapplication.utils
 
-import androidx.compose.animation.core.*
-import androidx.compose.animation.animateColorAsState
-import androidx.compose.runtime.*
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.*
-import kotlinx.coroutines.*
-import kotlinx.coroutines.flow.*
-import kotlinx.coroutines.sync.Mutex
-import kotlinx.coroutines.sync.withLock
-import com.example.myapplication.domain.model.Habit
 
 object AppUtils {
     
@@ -59,7 +49,3 @@ object AppUtils {
         return availableIcons.find { it.second == iconString }?.first ?: Icons.Default.Task
     }
 }
-
-
-
-
